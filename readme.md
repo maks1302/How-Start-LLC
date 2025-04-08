@@ -1,6 +1,6 @@
 # How to Start an LLC - Comprehensive Guide Website
 
-![Website banner](https://imgur.com/a/jQVWy93)
+![Xnip2025-04-06_13-01-04](https://github.com/user-attachments/assets/a155a4fc-7a90-4a0b-9865-76277dcc111b)
 
 ## Overview
 
