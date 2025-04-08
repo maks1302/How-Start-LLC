@@ -1,5 +1,7 @@
 # How to Start an LLC - Comprehensive Guide Website
 
+![Website banner](https://imgur.com/a/jQVWy93)
+
 ## Overview
 
 This website provides a comprehensive, step-by-step guide for entrepreneurs looking to form a Limited Liability Company (LLC) in the United States. It offers detailed information about the LLC formation process, state-specific requirements, and ongoing compliance obligations.
