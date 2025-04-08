@@ -1,0 +1,212 @@
+/*
+Theme Name: ListingHive Child
+Theme URI: https://hivepress.io/themes/listinghive
+Template: listinghive
+Author: HivePress
+Author URI: https://hivepress.io
+Description: A multipurpose WordPress theme that allows you to build any type of directory and listing websites. Whether it’s a business directory, job board, real estate, classifieds or basically any listing website — ListingHive is a great choice for it.
+Tags: right-sidebar,custom-colors,custom-menu,custom-logo,custom-header,featured-image-header,featured-images,footer-widgets,theme-options,threaded-comments,translation-ready
+Version: 1.2.11.1741273470
+Updated: 2025-03-06 15:04:30
+
+*/
+
+/*
+ Theme Name:   ListingHive Child
+ Template:     listinghive
+*/
+
+/* Headings */
+
+.single-post h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    color: #fff;
+
+}
+
+.single-post h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin: 2rem 0 1rem;
+    color: #4DB6AC;
+}
+
+.single-post h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 1.5rem 0 0.75rem;
+}
+
+.single-post p, .single-post ul, .single-post ol {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #444;
+}
+
+.single-post ul, .single-post ol {
+    padding-left: 20px;
+}
+
+.single-post ul li, .single-post ol li {
+    margin-bottom: 0.5rem;
+}
+
+/* Links */
+.single-post a {
+    color: #4DB6AC;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.single-post a:hover {
+    color: #ffc107;
+    text-decoration: underline;
+}
+
+/* Content Box */
+.single-post .wp-box {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Table Styles */
+.single-post table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.single-post th, .single-post td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.single-post th {
+    background: #4DB6AC;
+    color: #fff;
+    font-weight: 600;
+}
+
+.single-post td {
+    background: #fff;
+}
+
+.single-post tr:nth-child(even) td {
+    background: #f9f9f9;
+}
+
+/* FAQ Section as Accordion */
+.single-post .faq-section {
+    margin-top: 2rem;
+}
+
+.single-post .faq-item {
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 0.5rem;
+}
+
+.single-post .faq-question {
+    display: block;
+    padding: 1rem 2rem 1rem 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #222;
+    cursor: pointer;
+    position: relative;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.single-post .faq-question::after {
+    content: '\25BC';
+    position: absolute;
+    right: 1rem;
+    font-size: 0.8rem;
+    transition: transform 0.3s ease;
+}
+
+.single-post .faq-question:hover {
+    background: #f5f5f5;
+}
+
+.single-post .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding: 0 1rem;
+}
+
+.single-post .faq-answer p {
+    padding: 1rem 0;
+}
+
+.single-post .faq-item input[type="checkbox"] {
+    display: none;
+}
+
+.single-post .faq-item input[type="checkbox"]:checked ~ .faq-answer {
+    max-height: 200px;
+}
+
+.single-post .faq-item input[type="checkbox"]:checked ~ .faq-question::after {
+    transform: rotate(180deg);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .single-post h1 {
+        font-size: 2rem;
+    }
+
+    .single-post h2 {
+        font-size: 1.5rem;
+    }
+
+    .single-post h3 {
+        font-size: 1.1rem;
+    }
+
+    .single-post .button-2 {
+        font-size: 0.9rem;
+        line-height: 2.5rem;
+        padding: 0 1.5rem;
+    }
+
+    .single-post table, .single-post th, .single-post td {
+        font-size: 0.9rem;
+    }
+
+    .single-post th, .single-post td {
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .single-post {
+        padding: 10px;
+    }
+
+    .single-post h1 {
+        font-size: 1.75rem;
+    }
+
+    .single-post h2 {
+        font-size: 1.25rem;
+    }
+
+    .single-post table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
